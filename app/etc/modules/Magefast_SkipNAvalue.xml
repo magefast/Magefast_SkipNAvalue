@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Magefast_SkipNAvalue>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Magefast_SkipNAvalue>
+    </modules>
+</config>

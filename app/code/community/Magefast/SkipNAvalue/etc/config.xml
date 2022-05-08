@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Magefast_SkipNAvalue>
+            <version>1.2.1</version>
+        </Magefast_SkipNAvalue>
+    </modules>
+    <global>
+        <blocks>
+            <skipnavalue>
+                <class>Magefast_SkipNAvalue_Block</class>
+            </skipnavalue>
+            <catalog>
+                <rewrite>
+                    <product_view_attributes>Magefast_SkipNAvalue_Block_Product_View_Attributes</product_view_attributes>
+                </rewrite>
+            </catalog>
+        </blocks>
+        <helpers>
+            <skipnavalue>
+                <class>Magefast_SkipNAvalue_Helper</class>
+            </skipnavalue>
+        </helpers>
+    </global>
+</config>
